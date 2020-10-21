@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JobTaminiau/KIER-FREE-Training/master)
+
 # KIER-FREE-Training
 This repository contains the training material for the 2020 FREE-KIER collaborative training session. The training session is intended to transfer knowledge regarding 'solar city' analysis options and methodologies. The training session consists of 5x 1-hour sessions. Each session takes up a particular component of the overall mission of the training. The following components are addressed:
 
