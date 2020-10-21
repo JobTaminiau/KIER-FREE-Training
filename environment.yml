@@ -1,10 +1,6 @@
 name: KIER_training
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python=3.7
-  - jupyterlab
   - geopandas
   - geoplot
-prefix: C:\Users\job_t\anaconda3\envs\KIER_training
