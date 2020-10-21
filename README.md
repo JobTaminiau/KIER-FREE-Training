@@ -1,14 +1,14 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JobTaminiau/KIER-FREE-Training/master)
 
-# KIER-FREE-Training
+# GEOSPATIAL ANALYSIS OF ENERGY DIMENSIONS IN THE URBAN CONTEXT
 The Foundation for Renewable Energy & Environment (FREE) has developed five training modules for Korea Institute of Energy Research (KIER) researchers. The training modules introduce participants to the relevant geospatial analysis steps involved in ‘solar city’ evaluations. The training, therefore, deals with munging geo-data, exploring relations over space, evaluating physical urban conditions, estimating rooftop dimensions, and considering solar insolation and shading patterns. In a general sense, the tutorials include data analysis steps such as importing data, visualization, evaluation, and reporting.
 
 The tutorials make use of a virtual workspace that is accessible to all participants. The virtual workspace can be accessed by navigating to: https://github.com/JobTaminiau/KIER-FREE-Training. The GitHub repository contains all the necessary data and training modules for all five tutorial sessions. A good place to start is to first read the README.md file in the repository. This file contains instructions on how to open the relevant files of the tutorial session. In particular, the README.md file contains a so-called “binder” link at the top of the file. When you click this link, the virtual workspace is launched so that the tutorial can begin. Launching the virtual workspace will take a few minutes, so please be patient.
 
-#Pre-requisites for the Tutorial Sessions:
+## Pre-requisites for the Tutorial Sessions:
 No previous experience with the geospatial Python libraries is needed, but basic familiarity with geospatial data and concepts (shapefiles, vector vs raster data) and the Python library Pandas will be helpful. The virtual workspace and the exercises are set up in such a way that participants without Python or geospatial analysis experience should be able to complete them using the information learned during the session.
 
-#**Structure of the Tutorial Sessions:**
+## Structure of the Tutorial Sessions:
 The tutorials are structured along five sessions:
 1.	Introduction, Setting Up, and the Basics: The first tutorial session will be used to get everyone ready and familiar with the GitHub repository and the virtual workspace. This tutorial will include going over the files that are contained in the repository, launching Binder, and exploring the virtual workspace. Once everyone is familiar with the virtual workspace, the tutorial session will go over ‘the basics’ of geospatial assessment. The ‘basics’ includes providing an overview of common operations and the necessary Python libraries, instructions, and code to run these common operations.
 2.	Introduction to Geographic Information System (GIS) Analysis: the geospatial analysis steps involved in a ‘solar city’ evaluation heavily depend on tools and ideas that come from the various GIS software options that are available. This session will cover several key geospatial analysis tools involved in ‘solar city’ analyses. The participants will be shown how to perform these analysis steps in ArcGIS Pro software. In addition, the virtual workspace will show how to use the tools using Python directly.
