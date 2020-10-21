@@ -1,19 +1,17 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JobTaminiau/KIER-FREE-Training/master)
 
 # KIER-FREE-Training
-This repository contains the training material for the 2020 FREE-KIER collaborative training session. The training session is intended to transfer knowledge regarding 'solar city' analysis options and methodologies. The training session consists of 5x 1-hour sessions. Each session takes up a particular component of the overall mission of the training. The following components are addressed:
+The Foundation for Renewable Energy & Environment (FREE) has developed five training modules for Korea Institute of Energy Research (KIER) researchers. The training modules introduce participants to the relevant geospatial analysis steps involved in ‘solar city’ evaluations. The training, therefore, deals with munging geo-data, exploring relations over space, evaluating physical urban conditions, estimating rooftop dimensions, and considering solar insolation and shading patterns. In a general sense, the tutorials include data analysis steps such as importing data, visualization, evaluation, and reporting.
 
-1. Session introducing the tools and software commonly used for the purposes of 'solar city' analysis.
-2. Preliminary overview of methods and options to evaluate 'solar city' potential.
-3. Detailed methodological overview, Part 1: GIS-based assessment methods.
-4. Detailed methodological overview, Part 2: LIDAR-based assessment methods.
-5. Conclusion and summary.
+The tutorials make use of a virtual workspace that is accessible to all participants. The virtual workspace can be accessed by navigating to: https://github.com/JobTaminiau/KIER-FREE-Training. The GitHub repository contains all the necessary data and training modules for all five tutorial sessions. A good place to start is to first read the README.md file in the repository. This file contains instructions on how to open the relevant files of the tutorial session. In particular, the README.md file contains a so-called “binder” link at the top of the file. When you click this link, the virtual workspace is launched so that the tutorial can begin. Launching the virtual workspace will take a few minutes, so please be patient.
 
-The sessions are conducted virtually. To that end, each session is accompanied by one or more 'Jupyter Notebooks' that can be run remotely. In other words, there is no need to download specific software, data, or programs locally as the training session will be entirely operated on a remote server using the Binder ecosystem. 
+#Pre-requisites for the Tutorial Sessions:
+No previous experience with the geospatial Python libraries is needed, but basic familiarity with geospatial data and concepts (shapefiles, vector vs raster data) and the Python library Pandas will be helpful. The virtual workspace and the exercises are set up in such a way that participants without Python or geospatial analysis experience should be able to complete them using the information learned during the session.
 
-The analysis is done almost entirely using the Python programming language. In some cases, LaTex, HTML, Java, or Markdown are used as well to illustrate specific components. 
-
-The following notebooks make up the training session:
-
-1. Index.
-2. 
+#**Structure of the Tutorial Sessions:**
+The tutorials are structured along five sessions:
+1.	Introduction, Setting Up, and the Basics: The first tutorial session will be used to get everyone ready and familiar with the GitHub repository and the virtual workspace. This tutorial will include going over the files that are contained in the repository, launching Binder, and exploring the virtual workspace. Once everyone is familiar with the virtual workspace, the tutorial session will go over ‘the basics’ of geospatial assessment. The ‘basics’ includes providing an overview of common operations and the necessary Python libraries, instructions, and code to run these common operations.
+2.	Introduction to Geographic Information System (GIS) Analysis: the geospatial analysis steps involved in a ‘solar city’ evaluation heavily depend on tools and ideas that come from the various GIS software options that are available. This session will cover several key geospatial analysis tools involved in ‘solar city’ analyses. The participants will be shown how to perform these analysis steps in ArcGIS Pro software. In addition, the virtual workspace will show how to use the tools using Python directly.
+3.	Introduction to LIDAR data: Light Detection and Ranging (LIDAR) data forms a critical component in advanced ‘solar city’ analysis. As such, it is necessary to understand what LIDAR data is, how it is structured, what common forms it comes in, and how to extract useful information from a LIDAR data file. Using the virtual workspace, the tutorial will go over these essential steps. 
+4.	Estimating ‘Solar City’ Potential Without LIDAR: LIDAR data is not always available for the estimation of rooftop solar potential for an entire city. Methods have been developed by various researchers to estimate rooftop solar potential when no LIDAR data is available. This tutorial session will go over several such methods and the participants will be walked through one method in detail. For the analysis, the session will estimate the rooftop solar potential of a small portion of a city but the basic idea is applicable to entire cities.
+5.	Estimating ‘Solar City’ Potential using LIDAR: Finally, the final session will illustrate the calculation of ‘solar city’ potential using LIDAR data. The tutorial session will describe the basic ideas behind this type of analysis and the participants will be walked through one method in detail. For the analysis, the session will estimate the rooftop solar potential of a small portion of a city but the basic idea is applicable to entire cities.
